@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;500&display=swap');
+
+body {
+
+    /*background: linear-gradient(to right, rgb(225, 183, 183),rgb(44, 206, 93)); */
+    background-image: url("obrazky/mesi2.jpg");
+    background-repeat: no-repeat; /* aby sa neopakovali obrazky (nebude vam vytvarat dlazdice) */
+    background-size: cover; /* roztiahne obrazok na celu sirku */
+    background-attachment: fixed; /* zafixuje obrazok, pri skrolovani sa nebude posuvat */
+    color: #ffffff;
+}
+
 h1 {
     text-align: center;
     color: rgb(64, 62, 185);
@@ -8,8 +19,9 @@ h1 {
 
 p {
     font-style: italic;
+    color: #ffffff;
 }
 
 img {
-    width: 100%;
+    width: 30%;
 }
